@@ -1,0 +1,50 @@
+
+/*顶部*/
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.layout{
+    width: 100%;
+    height: 100%;
+}
+
+/*分类*/
+.category{
+    width: 100%;
+    height: 100%;
+    /*overflow: hidden;*/
+}
+
+.category_left{
+    width: 100px;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+.category_left>ul{
+    width: 100%;
+}
+.category_left>ul>li{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 14px;
+}
+.category_left>ul>li>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.category_left>ul>li.active>a{
+    color: #e92333;
+    border-right: none;
+}
+.category_right{
+    height: 100%;
+    overflow: hidden;
+    background-color: red;
+}
